@@ -9,7 +9,7 @@ Group member:
 
 Game description:
 
--This is a 3-dimensional gobang game. The width of the new board (e.g. 3*3*3, 4*4*4) is determined by the user. ### May randomly generate board size to utilize the random generator ###
+-This is a 3-dimensional gobang game. The width of the new board (e.g. 3x3x3, 4x4x4) is determined by the user. ### May randomly generate board size to utilize the random generator ###
 
 -Then, the two competing players who take turns to place their pieces, black and white respectively. 
 
