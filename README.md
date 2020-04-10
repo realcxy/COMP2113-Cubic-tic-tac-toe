@@ -1,5 +1,5 @@
 # COMP2113-GP
-Hello, this is the COMP2113 group project of Group241.
+Hello, this is the COMP2113 group project proposal of Group 241.
 
 Group member:
 
