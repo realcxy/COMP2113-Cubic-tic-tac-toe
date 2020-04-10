@@ -54,8 +54,6 @@ Coding requirements:
 
 -checkwin.cpp: Check win/lose/even status after each move; 
 
-### instructions on multiple file coding : https://www.learncpp.com/cpp-tutorial/programs-with-multiple-code-files/ ###
-
 6. Proper indentation and naming styles
 
 -Clear naming of each variable and each line of code should be well-indented  to make a better visibility of the page.
