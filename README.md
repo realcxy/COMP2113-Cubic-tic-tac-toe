@@ -4,7 +4,7 @@
 
 Hello, this is the COMP2113 group project proposal of Group 241.
 
-Group member:
+Group members:
 
 -Chen Xiangyue 3035719052
 
@@ -30,11 +30,11 @@ Coding requirements:
 
 3. Dynamic memory management
 
--Firstly, check whethter the player move is legal.
+-Firstly, check whethter the player's move is legal.
 
--If player moves successfully, renew the board.
+-If player moves successfully, refresh the board.
 
--If player fails to move, ask for a new turn.
+-If player fails to move, ask for a new move until the move is legal.
 
 4. File input/output (e.g. for loading/saving game status)
 
@@ -56,8 +56,8 @@ Coding requirements:
 
 6. Proper indentation and naming styles
 
--Clear naming of each variable and each line of code should be well-indented  to make a better visibility of the page.
+-Clear naming of each variable and each line of code will be well-indented to make a better visibility of the page.
 
 7. In-code documentation
 
--Some necessary documentations will be placed beside each line of code. Not only to give developers the necessary control to maintain the system but also to make the code understandable.
+-Some necessary documentations will be placed beside each line of code, not only to give developers the necessary control to maintain the system but also to make the code understandable for guest readers. 
