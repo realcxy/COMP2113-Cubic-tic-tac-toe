@@ -27,7 +27,15 @@ Coding requirements:
 
 3. Dynamic memory management
 
-4. File input/output (e.g., for loading/saving game status)
+-Firstly, check whethter the player move is legal.
+
+-If player moves successfully, renew the board.
+
+-If player fails to move, ask for a new turn.
+
+4. File input/output (e.g. for loading/saving game status)
+
+-
 
 5. Program codes in multiple files
 
@@ -45,4 +53,8 @@ Coding requirements:
 
 6. Proper indentation and naming styles
 
+-Clear naming of each variable and each line of code should be well-indented  to make a better visibility of the page.
+
 7. In-code documentation
+
+-Some necessary documentations will be placed beside each line of code. Not only to give developers the necessary control to maintain the system but also to make the code understandable.
