@@ -1,4 +1,7 @@
 # COMP2113-GP 
+
+# Project topic: Cubic tic-tac-toe
+
 Hello, this is the COMP2113 group project proposal of Group 241.
 
 Group member:
