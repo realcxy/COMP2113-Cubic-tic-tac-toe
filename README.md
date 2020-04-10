@@ -35,7 +35,9 @@ Coding requirements:
 
 4. File input/output (e.g. for loading/saving game status)
 
--
+-To start the game, first ask two players to enter their names and input 'S'(Start)
+
+-If a turn ends by a win or a draw, it is defined as ending naturally, then the players could choose whether to start a new game by inputing 'Y'(Yes,a new game will start) or 'N'(No, the program terminates).
 
 5. Program codes in multiple files
 
