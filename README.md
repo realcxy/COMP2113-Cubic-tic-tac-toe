@@ -1,4 +1,4 @@
-# COMP2113-GP
+# COMP2113-GP 
 Hello, this is the COMP2113 group project proposal of Group 241.
 
 Group member:
