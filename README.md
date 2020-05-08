@@ -66,4 +66,4 @@ Coding requirements:
 
 Libraries:
 
--<iostream>, <cstdlib>, and <cmath>. 
+-iostream, cstdlib, and cmath. 
