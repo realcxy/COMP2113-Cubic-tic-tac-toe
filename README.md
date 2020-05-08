@@ -12,52 +12,52 @@ Group members:
 
 Game description:
 
--This is a 3-dimensional gobang game. The width of the new board (e.g. 3x3x3, 4x4x4) is determined by the user. 
+-This is a 3-dimensional tic-tac-toe game. The user inputs '1' to start a new game and '0' to exit before each round. 
 
--Then, the two competing players who take turns to place their pieces, 'x' and 'o' respectively. 
+-In every new game, two players input their names and the width of the new board (e.g. 3x3x3, 4x4x4). 
 
--The first player to establish a width-long line with his pieces wins. The line can be in any of the three dimensions, either flat or diagonal. If no player can establish a line when the board the full of pieces, they end up even. 
+-Then, the two players who take turns to place their pieces, '1' and '2' respectively. 
+
+-The first player to establish a width-long line with their pieces wins. The line can be in any of the three dimensions, either flat or diagonal. If no player can establish a line when the board the full of pieces, they end up even. 
 
 Coding requirements: 
 
 1. Generation of random game sets or events
 
--After the two players enter their names, a random generator assigns one of them to hold 'x' (first to move) and the other to hold 'o' (second to move). 
+-After the two players enter their names, a random generator assigns one of them to make the first move (game.cpp). 
 
 2. Data structures for storing game status
 
--Use a three-dimensional array to store the current pieces on the board, whose size (width of board) is of the player's request. For every space in the array, integer 0, 1 and 2 means no piece, 'x' and 'o' respectively. 
+-Use a dynamic three-dimensional array to store the current pieces on the board, whose size (width of board) is of the player's request. For every space in the array, integer 0, 1 and 2 means no piece, 1st player and 2nd player respectively. 
 
 3. Dynamic memory management
 
--Firstly, check whethter the player's move is legal.
-
--If player moves successfully, refresh the board.
-
--If player fails to move, ask for a new move until the move is legal.
+-The board is a dynamic 3D array passed by reference to all the other functions, updated with every move, and deleted after the game. 
 
 4. File input/output (e.g. for loading/saving game status)
 
--To start the game, first ask two players to enter their names and input 'S'(Start)
-
--If a turn ends by a win or a draw, it is defined as ending naturally, then the players could choose whether to start a new game by inputing 'Y'(Yes,a new game will start) or 'N'(No, the program terminates).
+-Sample game inputs are made into files, but as a relatively short game, it cannot be paused in the middle. 
 
 5. Program codes in multiple files
 
--main.cpp: Initiate the game; 
+-MAIN.cpp: Initiate the game; 
 
--printboard.cpp: Display the board in the beginning;
+-game.cpp: Initialize the new board and propose player moves; 
 
--checklegal.cpp: Check if the player's move is legal; 
+-move.cpp: update the board after a legal move is made; 
 
--updateboard.cpp: Display the updated board after each move;
+-checkMove.cpp: Check if the player's move is legal; 
 
--checkwin.cpp: Check win/lose/even status after each move; 
+-print.cpp: Display the updated board after each move;
+
+-checkWin.cpp: Check win/lose status after each move; 
+
+-checkDraw.cpp: Check if the player break even after each move. 
 
 6. Proper indentation and naming styles
 
--Clear naming of each variable and each line of code will be well-indented to make a better visibility of the page.
+-Clear naming of each file, indentation checked.
 
 7. In-code documentation
 
--Some necessary documentations will be placed beside each line of code, not only to give developers the necessary control to maintain the system but also to make the code understandable for guest readers. 
+-Some necessary documentations are placed beside segments of code, not only to give developers the necessary control to maintain the system but also to make the code understandable for guest readers. 
