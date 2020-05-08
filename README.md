@@ -10,15 +10,17 @@ Group members:
 
 -Dong Qian 3035532820
 
-Game description:
+Game description & instruction:
 
--This is a 3-dimensional tic-tac-toe game. The user inputs '1' to start a new game and '0' to exit before each round. 
+-This is a 3-dimensional tic-tac-toe game. Compile 'MAIN.cpp' to start. 
 
--In every new game, two players input their names and the width of the new board (e.g. 3x3x3, 4x4x4). 
+-The user inputs '1' to start a new game and '0' to exit before each round. 
 
--Then, the two players who take turns to place their pieces, '1' and '2' respectively. 
+-Before every new game, two players input their names and the width of the new board (e.g. 3x3x3, 4x4x4). The minimum board size is 3. Illeagal board size will be rejected and another input will be proposed. 
 
--The first player to establish a width-long line with their pieces wins. The line can be in any of the three dimensions, either flat or diagonal. If no player can establish a line when the board the full of pieces, they end up even. 
+-Then, the two players take turns to place their pieces by inputting the level, row and column of their piece. Illeagal moves will be rejected and another input will be proposed. 
+
+-The first player to establish a width-long line with their pieces wins. The line can be in any of the three dimensions, either flat or diagonal. If no player can establish a line when the board is full of pieces, the players end up even. 
 
 Coding requirements: 
 
@@ -61,3 +63,7 @@ Coding requirements:
 7. In-code documentation
 
 -Some necessary documentations are placed beside segments of code, not only to give developers the necessary control to maintain the system but also to make the code understandable for guest readers. 
+
+Libraries:
+
+-<iostream>, <cstdlib>, <cmath>. 
